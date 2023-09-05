@@ -8,36 +8,66 @@
 </head>
 <body>
     <div class="corpo">
-        <div class="corpoCalc">
-            <div class="opcoes_Invest">
-                <span>Escolha o Investimento</span>
-                <select name="" id="">
-                    <option value="">Tesouro Direto</option>
-                    <option value="">Tesouro Direto</option>
-                    <option value="">Tesouro Direto</option>
-                </select>
-            </div>
-            <div class="tempo_De_Invest">
-                <span>Duração do Investimento</span>
-                <input type="text">
-            </div>
-            <div class="valor_Do_Invest">
-                <div class="aporte">
-                    <span>Aporte inicial</span>
-                    <input type="text" placeholder="R$:0,00">
+        <div class="corpo_todo">
+            <div class="corpoCalc">
+                <div class="opcoes_Invest">
+                    <span>Escolha o Investimento</span>
+                    <select name="" id="">
+                        <option value="">Tesouro Direto</option>
+                        <option value="">Tesouro Direto</option>
+                        <option value="">Tesouro Direto</option>
+                    </select>
                 </div>
-                <div class="aporte">
-                    <span>Aporte mensal</span>
-                    <input type="text" placeholder="R$0,00">
+                <div class="tempo_De_Invest">
+                    <span>Duração do Investimento</span>
+                    <input type="text">
                 </div>
-            </div>
-            <div class="simular">
-                <button>Simular</button>
+                <div class="valor_Do_Invest">
+                    <div class="aporte">
+                        <span>Aporte inicial</span>
+                        <input type="text" placeholder="R$:0,00">
+                    </div>
+                    <div class="aporte">
+                        <span>Aporte mensal</span>
+                        <input type="text" placeholder="R$0,00">
+                    </div>
+                </div>
+                <div class="simular">
+                    <button>Simular</button>
+                </div>
+
+
             </div>
 
-            <div class="resultado">
-                <div class="campo_result">
-                    
+            <div class="corpoTabela">
+                <div class="meu_calculo">
+                    <div class="valores">
+                        <span>Valor inicial:</span>
+                    </div>
+                    <div class="valores">
+                        <span>Valor mensal:</span>
+                    </div>
+                    <div class="valores">
+                        <span>Taxa de Juros:</span>
+                    </div>
+                    <div class="valores">
+                        Período em:
+                    </div>
+                </div>
+
+                <div class="resultado">
+                    <div class="valores_finais">
+                        <span>Valor total final</span>
+                        <div class="valor_total_final">21</div>
+                    </div>
+                    <div class="valores_finais">
+                        <span>Total Investido</span>
+                        <div class="valor_total_final">32</div>
+                    </div>
+                    <div class="valores_finais">
+                        <span>Total em juros</span>
+                        <div class="valor_total_final">12</div>
+                    </div>
                 </div>
             </div>
         </div>

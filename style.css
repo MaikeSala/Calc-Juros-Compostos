@@ -10,13 +10,15 @@
     justify-content: center;
     align-items: center;
 }
+.corpo_todo {
+    display: flex;
+    border: black solid 1px;
+    border-radius: 20px;
+}
 .corpoCalc {
-    height: 500px;
     width: 400px;
     display: flex;
     flex-direction: column;
-    border: black solid 1px ;
-    border-radius: 30px;
 }
 
 /* Escolha do Investimentos */
@@ -40,7 +42,6 @@
 }
 .opcoes_Invest select option{
     padding: 10px;
-    background-color: grey;
     font-size: 15px;
 }
 
@@ -95,6 +96,7 @@
 
 .simular {
     display: flex;
+    padding: 10px;
     justify-content: center;
 }
 .simular button {
@@ -107,19 +109,29 @@
     background-color: #ccc;
 }
 
-/* Resultado */
+/* Valores digitados */
+.corpoTabela {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border-left: black solid 1px;
+}
+.meu_calculo {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.valores {
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
 
 .resultado {
-    height: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-.campo_result {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    width: 200px;
-    height: 15px;
+    gap: 50px;
 }
