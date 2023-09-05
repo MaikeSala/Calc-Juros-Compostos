@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpo {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpoCalc {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px ;
+    border-radius: 30px;
+}
+
+/* Escolha do Investimentos */
+.opcoes_Invest {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.opcoes_Invest span {
+    font-size: 25px;
+}
+.opcoes_Invest select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 200px;
+}
+.opcoes_Invest select option{
+    padding: 10px;
+    background-color: grey;
+    font-size: 15px;
+}
+
+/* Tempo que o Investimento deve durar */
+
+.tempo_De_Invest {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tempo_De_Invest span{
+    font-size: 20px;
+}   
+.tempo_De_Invest input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Aporte inicial e Aporte mensal */
+
+.valor_Do_Invest {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.aporte {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.aporte span {
+    display: flex;
+    justify-content: center;
+}
+.aporte input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 150px;
+}
+
+/* Botao para enviar as infos */
+
+.simular {
+    display: flex;
+    justify-content: center;
+}
+.simular button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+.simular button:hover {
+    background-color: #ccc;
+}
+
+/* Resultado */
+
+.resultado {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.campo_result {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 200px;
+    height: 15px;
+}
