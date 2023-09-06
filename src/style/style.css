@@ -9,11 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #161616 ;
 }
 .corpo_todo {
     display: flex;
     border: black solid 1px;
     border-radius: 20px;
+    background-color: white;
 }
 .corpoCalc {
     width: 400px;
@@ -112,25 +114,38 @@
 .corpoTabela {
     margin: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+
     border-left: black solid 1px;
+    width: 700px;
+    height: 400px;
+}
+.corpoTabela hr {
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    border:none;
 }
 .meu_calculo {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    height: 50%;
 } 
-.valores {
+.meu_calculo span {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     box-sizing: border-box;
-    padding: 20px;
 }
 
 .resultado {
     display: flex;
     align-items: center;
-    gap: 50px;
+    height: 50%;
+    gap: 30px;
 }
