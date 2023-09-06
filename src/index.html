@@ -4,32 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Investimentos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <div class="corpo">
         <div class="corpo_todo">
             <div class="corpoCalc">
                 <div class="opcoes_Invest">
-                    <span>Escolha o Investimento</span>
-                    <select name="" id="">
-                        <option value="">Tesouro Direto</option>
-                        <option value="">Tesouro Direto</option>
-                        <option value="">Tesouro Direto</option>
-                    </select>
+                    <span>Taxa de Juros</span>
+                    <input type="text" id="invest_porcentagen" placeholder="Taxa em meses">
                 </div>
                 <div class="tempo_De_Invest">
                     <span>Duração do Investimento</span>
-                    <input type="text">
+                    <input type="text" id="tempo" placeholder="Duração em meses">
                 </div>
                 <div class="valor_Do_Invest">
                     <div class="aporte">
                         <span>Aporte inicial</span>
-                        <input type="text" placeholder="R$:0,00">
+                        <input type="text" id="aporte_inicial" placeholder="R$0,00" >
                     </div>
                     <div class="aporte">
                         <span>Aporte mensal</span>
-                        <input type="text" placeholder="R$0,00">
+                        <input type="text" id="aporte_mensal" placeholder="R$0,00">
                     </div>
                 </div>
                 <div class="simular">
@@ -72,5 +68,7 @@
             </div>
         </div>
     </div>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>

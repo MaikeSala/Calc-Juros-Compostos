@@ -33,17 +33,15 @@
 .opcoes_Invest span {
     font-size: 25px;
 }
-.opcoes_Invest select {
+#invest_porcentagen {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff;
     width: 200px;
-}
-.opcoes_Invest select option{
-    padding: 10px;
     font-size: 15px;
 }
+
 
 /* Tempo que o Investimento deve durar */
 
@@ -63,6 +61,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff;
+    font-size: 15px;
 }
 
 /* Aporte inicial e Aporte mensal */
