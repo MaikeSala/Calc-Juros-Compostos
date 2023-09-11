@@ -9,11 +9,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #161616 ;
 }
 .corpo_todo {
     display: flex;
-    border: black solid 1px;
+    box-shadow: 0 0 10px;
     border-radius: 20px;
     background-color: white;
 }
