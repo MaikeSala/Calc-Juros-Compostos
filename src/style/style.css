@@ -12,9 +12,10 @@
 }
 .corpo_todo {
     display: flex;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 7px;
     border-radius: 20px;
     background-color: white;
+    overflow: hidden;
 }
 .corpoCalc {
     width: 400px;
@@ -145,6 +146,10 @@
 .resultado {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 50%;
     gap: 30px;
+}
+.resultado span {
+    text-align: center;
 }

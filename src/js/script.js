@@ -43,7 +43,7 @@ function resultadoNaTela(valorTotalFinal, valorTotalInvestido, jurosTotal) {
 
     valorTotalFinalSpan.textContent = `Valor total final: R$ ${valorTotalFinal.toFixed(2)}`;
     valorTotalInvestidoSpan.textContent = `Valor total investido: R$${valorTotalInvestido.toFixed(2)}`;
-    jurosTotalSpan.textContent = `Total de juros ${jurosTotal.toFixed(2)}`;
+    jurosTotalSpan.textContent = `Total de juros: ${jurosTotal.toFixed(2)}`;
 
     minhaDiv.appendChild(valorTotalFinalSpan);
     minhaDiv.appendChild(valorTotalInvestidoSpan);
